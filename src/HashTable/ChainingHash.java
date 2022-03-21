@@ -69,8 +69,9 @@ public class ChainingHash {
         mainObject.saveData("DonLee", "010111122222");
         mainObject.saveData("David", "01033334444");
         mainObject.saveData("Dave", "01055556666");
+        mainObject.saveData("Dave", "01099999999");
 
-        System.out.println(mainObject.getData("DaveLee"));
+        System.out.println(mainObject.getData("Dave"));
     }
 
 }
