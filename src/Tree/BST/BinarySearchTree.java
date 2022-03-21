@@ -46,11 +46,39 @@ public class BinarySearchTree {
         return true;
     }
 
+    public Node search(int data) {
+        //Case1 : Node가 하나도 없을 때
+        if (this.head == null) {
+            return null;
+        } else {//Case2 : Node가 하나 이상 있을 때
+            Node findNode = this.head;
+            while (findNode != null) {
+                if (findNode.value == data) {
+                    return findNode;
+                } else if (data < findNode.value) {
+                    findNode = findNode.left;
+                } else {
+                    findNode = findNode.right;
+                }
+            }
+            //모두 탐색 후 존재 하지 않을경우
+            return null;
+
+        }
+
+
+    }
+
     public static void main(String[] args) {
         BinarySearchTree tree = new BinarySearchTree();
         tree.insertNode(2);
         tree.insertNode(3);
         tree.insertNode(4);
         tree.insertNode(6);
+
+        Node testNode = tree.search(3);
+
+        System.out.println(testNode.right.value);
+
     }
 }
