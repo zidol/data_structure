@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83b9c0a3-aec9-4b4a-b665-8605d650dbfa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Tree/BST/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Heap/Heap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/BST/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/BST/BinarySearchTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
