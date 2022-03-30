@@ -51,6 +51,7 @@
 - **개방 해싱 또는 Open Hashing 기법** 중 하나: 해시 테이블 저장공간 외의 공간을 활용하는 기법
 - 충돌이 일어나면, 링크드 리스트라는 자료 구조를 사용해서, 링크드 리스트로 데이터를 추가로 뒤에 연결시켜서 저장하는 기법
 <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FnMfgg%2FbtqS1WyRuWI%2F32LmJGOvrT9YTndHMvYW50%2Fimg.png" />
+
 ### 장점
   - 미리 충돌을 대비해서 공간을 많이 잡아놓을 필요가 없다. 
   - 출돌이 나면 그때 공간을 만들어서 연결만 해주면 된다. 
