@@ -22,6 +22,7 @@ public class HashTable {
 
     public boolean saveData(String key, String value) {
         Integer address = this.hashFunc(key);
+        System.out.println("address = " + address);
         if (this.hasTable[address] != null) {
             this.hasTable[address].value = value;
         } else {

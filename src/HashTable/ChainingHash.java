@@ -25,6 +25,8 @@ public class ChainingHash {
 
     public boolean saveData(String key, String value) {
         Integer address = this.hashFunc(key);
+        System.out.println("address : " + address);
+        System.out.println("this.hasTable[address] : " + this.hasTable[address]);
         if (this.hasTable[address] != null) {
             //헤드 설정
             Slot findSlot = this.hasTable[address];
@@ -71,7 +73,7 @@ public class ChainingHash {
         mainObject.saveData("Dave", "01055556666");
         mainObject.saveData("Dave", "01099999999");
 
-        System.out.println(mainObject.getData("Dave"));
+        System.out.println(mainObject.getData("DaveLee"));
     }
 
 }

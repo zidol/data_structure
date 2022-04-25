@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 public class Heap {
-    public ArrayList<Integer> heapArray = null;
+    public ArrayList<Integer>  heapArray = null;
 
     public Heap (Integer data) {
         heapArray = new ArrayList<Integer>();

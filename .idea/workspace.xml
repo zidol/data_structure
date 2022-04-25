@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="83b9c0a3-aec9-4b4a-b665-8605d650dbfa" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HashTable/ChainingHash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HashTable/ChainingHash.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HashTable/ClosingHash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HashTable/ClosingHash.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HashTable/HashTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HashTable/HashTable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Heap/Heap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Heap/Heap.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,11 +43,13 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.Heap">
+  <component name="RunManager" selected="Application.ClosingHash">
     <configuration name="BinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Tree.BST.BinarySearchTree" />
       <module name="data_structure" />
@@ -112,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Heap" />
+        <item itemvalue="Application.ClosingHash" />
         <item itemvalue="Application.ChainingHash" />
         <item itemvalue="Application.HashTable" />
+        <item itemvalue="Application.Heap" />
         <item itemvalue="Application.BinarySearchTree" />
-        <item itemvalue="Application.ClosingHash" />
       </list>
     </recent_temporary>
   </component>
@@ -128,8 +133,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1646744971858</updated>
+      <workItem from="1649848402338" duration="1325000" />
+      <workItem from="1650025999482" duration="1410000" />
+      <workItem from="1650289738316" duration="639000" />
+      <workItem from="1650364859522" duration="14574000" />
+      <workItem from="1650517961582" duration="1793000" />
+      <workItem from="1650865258372" duration="3197000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -143,9 +157,25 @@
     </option>
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HashTable/ChainingHash.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HashTable/ClosingHash.java</url>
+          <line>89</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
+        <PinnedItemInfo parentTag="HashTable.ChainingHash" memberName="hasTable" />
         <PinnedItemInfo parentTag="LinkedList.DoubleLinkedList$Node" memberName="prev" />
+        <PinnedItemInfo parentTag="HashTable.ChainingHash$Slot" memberName="next" />
       </pinned-members>
     </pin-to-top-manager>
   </component>
